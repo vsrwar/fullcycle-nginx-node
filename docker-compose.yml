@@ -17,8 +17,6 @@ services:
     container_name: app
     networks:
       - node-network
-    volumes:
-      - ./node:/usr/src/app
     tty: true
     expose:
       - 4747
