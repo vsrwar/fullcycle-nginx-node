@@ -20,7 +20,6 @@ services:
     volumes:
       - ./node:/usr/src/app
     tty: true
-    command: node index.js
     expose:
       - 4747
     depends_on:
